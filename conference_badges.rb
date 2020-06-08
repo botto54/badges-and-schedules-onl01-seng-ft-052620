@@ -11,7 +11,7 @@ end
 
 def assign_rooms(attendees)
   attendees.map.with_index(1) |attendee, index|
-    "Hello, "
+    "Hello, #{attendee},"
 end
 
 def printer(attendees)
