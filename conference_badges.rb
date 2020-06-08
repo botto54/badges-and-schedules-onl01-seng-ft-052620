@@ -20,7 +20,7 @@ def printer(badge)
     puts name
   end
   
-  assign_rooms(attendee).each do |room|
+  assign_rooms(attendees).each do |room|
     puts room
   end
   
