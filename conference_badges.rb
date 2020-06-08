@@ -10,7 +10,8 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  
+  attendees.map.with_index(1) |attendee, index|
+    "Hello, "
 end
 
 def printer(attendees)
